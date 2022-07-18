@@ -5,53 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/baguetteBox.min.css">
     <link href="css/styles.css" rel="stylesheet">
-    <script src="js/baguetteBox.min.js" async></script>
-   
-    <title>Project 5</title>
+    <title>Interactive Photo Gallery</title>
 </head>
+
+
 <body>
-    <div class="gallery">
-        <input class="search" type="text" placeholder="Search..">
-    </div>
-    <div class="gallery">
-        <a href="images/photos/01.jpg" data-caption="Hay Bales
-        I love hay bales. Took this snap on a drive through the countryside past some straw fields.
-        ">
-          <img src="images/photos/thumbnails/01.jpg" class="photo-1" alt="Image 1">
+    
+        <input type="search" id="search" placeholder="Search..">
+    
+
+        <div class="gallery">
+        <a href="images/photos/01.jpg" data-caption="I love hay bales. Took this snap on a drive  through the countryside past some straw fields.">
+          <img src="images/photos/thumbnails/01.jpg" class="photo-1" alt="Hay Bales">
         </a>
-        <figure class="photo photo-2">
-            <img src="images/photos/thumbnails/02.jpg" class="photo-2" alt="Image 1">
-          </figure>
-          <figure class="photo photo-3">
-            <img src="images/photos/thumbnails/03.jpg" class="photo-3" alt="Image 1">
-          </figure>
-          <figure class="photo photo-4">
-            <img src="images/photos/thumbnails/04.jpg" class="photo-4" alt="Image 1">
-          </figure>
-          <figure class="photo photo-5">
-            <img src="images/photos/thumbnails/05.jpg" class="photo-5" alt="Image 1">
-          </figure>
-          <figure class="photo photo-6">
-            <img src="images/photos/thumbnails/06.jpg" class="photo-6" alt="Image 1">
-          </figure>
-          <figure class="photo photo-7">
-            <img src="images/photos/thumbnails/07.jpg" class="photo-7" alt="Image 1">
-          </figure>
-          <figure class="photo photo-8">
-            <img src="images/photos/thumbnails/08.jpg" class="photo-8" alt="Image 1">
-          </figure>
-          <figure class="photo photo-9">
-            <img src="images/photos/thumbnails/09.jpg" class="photo-9" alt="Image 1">
-          </figure>
-          <figure class="photo photo-10">
-            <img src="images/photos/thumbnails/10.jpg" class="photo-10" alt="Image 1">
-          </figure>
-          <figure class="photo photo-11">
-            <img src="images/photos/thumbnails/11.jpg" class="photo-11" alt="Image 1">
-          </figure>
-          <figure class="photo photo-12">
-            <img src="images/photos/thumbnails/12.jpg" class="photo-12" alt="Image 1">
-          </figure>
+
+        <a href="images/photos/02.jpg" data-caption="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+          <img src="images/photos/thumbnails/02.jpg" class="photo-2" alt="Lake">
+        </a>
+
+        <a href="images/photos/03.jpg" data-caption="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+            <img src="images/photos/thumbnails/03.jpg" class="photo-3" alt="Canyon">
+        </a>
+
+        <a href="images/photos/04.jpg" data-caption="It was amazing to see an iceberg up close, it was so cold but didn’t snow today. ">
+            <img src="images/photos/thumbnails/04.jpg" class="photo-4" alt="Iceberg">
+        </a> 
+
+        <a href="images/photos/05.jpg" data-caption="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+            <img src="images/photos/thumbnails/05.jpg" class="photo-5" alt="Desert">
+        </a> 
+
+        <a href="images/photos/06.jpg" data-caption="Fall is coming, I love when the leaves on the trees start to change color.">
+            <img src="images/photos/thumbnails/06.jpg" class="photo-6" alt="Fall">
+        </a> 
+
+        <a href="images/photos/07.jpg" data-caption="I drove past this plantation yesterday, everything is so green!">
+            <img src="images/photos/thumbnails/07.jpg" class="photo-7" alt="Plantation">
+        </a> 
+
+        <a href="images/photos/08.jpg" data-caption="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+            <img src="images/photos/thumbnails/08.jpg" class="photo-8" alt="Dunes">
+        </a> 
+
+        <a href="images/photos/09.jpg" data-caption="We enjoyed a quiet stroll down this countryside lane.">
+            <img src="images/photos/thumbnails/09.jpg" class="photo-9" alt="Countryside Lane">
+        </a> 
+
+
+        <a href="images/photos/10.jpg" data-caption="Sunset at the coast! The sky turned a lovely shade of orange.">
+            <img src="images/photos/thumbnails/10.jpg" class="photo-10" alt="Sunset">
+        </a> 
+
+        <a href="images/photos/11.jpg" data-caption="I did a tour of a cave today and the view of the landscape below was breathtaking.">
+            <img src="images/photos/thumbnails/11.jpg" class="photo-11" alt="Cave">
+        </a> 
+
+        <a href="images/photos/12.jpg" data-caption="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+            <img src="images/photos/thumbnails/12.jpg" class="photo-12" alt="Bluebells">
+        </a> 
       </div>
 
 
@@ -63,7 +74,9 @@
 
 
 
-
+      <script src="js/baguetteBox.min.js"></script>
+      <script src="js/searchFilter.js"></script>
+      <script src="js/app.js"></script>
 </body>
 
 </html>

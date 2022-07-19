@@ -21,7 +21,9 @@
 }
 
 .search {
-   grid-column: auto/span 4;
+   display: flex;
+   flex-direction: row;
+  
 }
 
 .photo-1 {

@@ -9,23 +9,34 @@
 }
 
 .gallery img:hover{
-    opacity: .7;
+    filter: grayscale(100%);
+    transform: scale(1.1);
 }
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 10px;
-    margin: 0;
+    grid-gap: 15px;
+    margin-top: 1rem;
     padding: 0;
 }
 
 .search {
    display: flex;
    flex-direction: row;
-  
+   gap: .25rem;
 }
-
+.search form {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+.search form input {
+    border: none;
+}
+input {
+    font-size: 1rem;
+}
 .photo-1 {
     
 }

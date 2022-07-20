@@ -10,7 +10,6 @@
 
 .gallery img:hover{
     filter: grayscale(100%);
-  
 }
 
 .gallery {
@@ -26,6 +25,7 @@
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 15px;
 }
+
 .search form {
     grid-column: 3 / 11 ; 
   
@@ -38,9 +38,7 @@
    padding-right: 5px;
    font-size: .8rem;
    margin-top: 5px;
- 
    min-width: 100%;
-   
 }
 
 ul {

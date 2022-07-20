@@ -8,7 +8,7 @@ const search = () =>{
         let match = gallery[i].getElementsByTagName("a")[0];
 
         if (match) {
-            let textvalue = match.textcontent || match.innerHTML
+            let textvalue = match.dataset.caption || match.innerHTML
 
             if (textvalue.toUpperCase().indexOf(searchbox) > -1) {
                gallery[i].style.display = "";
